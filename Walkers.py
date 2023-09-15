@@ -11,7 +11,7 @@ cap = cv2.VideoCapture('walking.avi')
 while True:
     
     # Read first frame
-    ret, frame = cap.read()
+    ret, frame = frame.read()
 
     #Convert Each Frame into Grayscale
     gray= cv2.cvtColor(cap, cv2.COLOR_BGR2GRAY)
